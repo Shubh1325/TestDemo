@@ -38,4 +38,5 @@ public class RegistrationController {
     public String deleteEmployee(@PathVariable("sr_no") Long sr_no) {
         return registrationService.deleteDepartmentById(sr_no);
     }
+    //Git Push
 }
